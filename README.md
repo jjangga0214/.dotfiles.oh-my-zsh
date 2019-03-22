@@ -6,6 +6,8 @@ This is **.dotfiles** library (generally as a git submodule) used by other **.do
 
 :warning: This assumes zsh and git are already installed.  
 
+:information_source: This dose not depend on, but configs nvm (on [nvm.zsh](nvm.zsh)). 
+
 This installs oh-my-zsh and plugins. This also calls [config.sh](config.sh). Finally, this copies [.zshrc](.zshrc) under `$HOME`.
 
 ```bash
