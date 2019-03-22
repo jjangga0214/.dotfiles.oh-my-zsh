@@ -1,6 +1,6 @@
 # .dotfiles.oh-my-zsh
 
-This is **.dotfiles** library (generally as a submodule) used by other **.dotfiles** projects (e.g. *.dotfiles.debian.core*) for oh-my-zsh installation and configuration. But this can be used independently as well. 
+This is **.dotfiles** library (generally as a git submodule) used by other **.dotfiles** projects (e.g. *.dotfiles.debian.core*) for oh-my-zsh installation and configuration. But this can be used independently as well. 
 
 ## [install.sh](install.sh)
 
