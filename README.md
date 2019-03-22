@@ -18,19 +18,9 @@ zsh config.sh
 
 ## maintenance of zsh and oh-my-zsh
 
-Some envionment-related tools to be integrated with shell write their config code on `$HOME`**/.zshrc** by themselves. So, to keep this project in sync, it's important to override .zshrc(in this project) by `$HOME`**/.zshrc**.
+Some envionment-related tools to be integrated with shell write their config code on `$HOME`**/.zshrc** by themselves. So, to keep this project in sync, it's important to override .zshrc(in this project) by `$HOME`**/.zshrc**. For consistency, even when manual change is written, write it directly on `$HOME`**/.zshrc** and copies the file to this project by `cp ~/zshrc ./.zshrc`.
 
-For consistency, even when manual change is written, write it directly on `$HOME`**/.zshrc** and copies the file to this project.
-
-```bash
-cp ~/zshrc ./.zshrc
-```
-
-However, config for oh-my-zsh doesn't have to be like that. For convenience, just open this project, make some changes, and just execute [config.sh](config.sh). 
-
-```bash
-zsh config.sh
-```
+However, config for oh-my-zsh doesn't have to be like that. For convenience, just open this project, make some changes, and just execute [config.sh](config.sh) by `zsh config.sh`. 
 
 For convenience, [sync.sh](sync.sh) does those 2 operations.
 
