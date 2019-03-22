@@ -1,4 +1,4 @@
-# oh-my-zsh
+# oh-my-zsh.dotfiles
 
 ## [install.sh](install.sh)
 
