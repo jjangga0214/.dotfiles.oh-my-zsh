@@ -10,7 +10,7 @@ export ZSH_AUTOSUGGEST_USE_ASYNC=1
 ### Where go compiler would be considered installed. 
 ### /usr/local/go is the default. 
 ### This isn't needed if go is installed with snap
-export GOROOT=/usr/local/go
+# export GOROOT=/usr/local/go
 ## GOPATH 
 ### Where go packages and projects will reside. 
 ### e.g. `go get <pkg>` installs <pkg> here.
