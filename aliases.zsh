@@ -44,4 +44,5 @@ alias f="nautilus . &!"
 ## dev
 alias jw="webstorm . &!"
 alias vsc="code . &!"
+alias _vsc="sudo code . --user-data-dir $HOME/.config/vscode &!"
 alias gk="gitkraken"
