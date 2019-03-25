@@ -31,6 +31,7 @@ alias jest="npx jest"
 ## env
 alias p="ccat"
 alias dot="cd $DOT"
+alias dotz="cd $DOTZ"
 alias s="cd /media/$(whoami)/SHARE"
 alias pathpp="tr ':' '\n' <<< $PATH"
 
