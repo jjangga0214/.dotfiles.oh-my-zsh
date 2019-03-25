@@ -1,5 +1,5 @@
 BASE_DIR=$(dirname "$0")
-: "${ZSH_CUSTOM:=HOME/.oh-my-zsh/custom}"
+: "${ZSH_CUSTOM:=$HOME/.oh-my-zsh/custom}"
 
 # aliases
 cp $BASE_DIR/aliases.zsh $ZSH_CUSTOM
