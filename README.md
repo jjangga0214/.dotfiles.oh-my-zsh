@@ -16,7 +16,7 @@ sudo bash install.sh
 
 ## [config.sh](config.sh)
 
-This sets aliases, functions, env vars and nvm by copying them under `$ZSH_CUSTOM`, which would be `$HOME`**/.oh-my-zsh/custom**.
+This sets aliases, functions, env vars and nvm by copying them under `$ZSH_CUSTOM`, whose default would be `$HOME`**/.oh-my-zsh/custom** (if not specified to another path).
 
 ```bash
 zsh config.sh
