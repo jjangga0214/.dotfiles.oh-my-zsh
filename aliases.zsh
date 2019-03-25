@@ -30,10 +30,9 @@ alias jest="npx jest"
 
 ## env
 alias p="ccat"
-alias dot="cd ~/.dotfiles"
+alias dot="cd $DOT"
 alias s="cd /media/$(whoami)/SHARE"
-alias pathpretty="tr ':' '\n' <<< $PATH"
-
+alias pathpp="tr ':' '\n' <<< $PATH"
 
 # app
 
