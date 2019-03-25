@@ -36,6 +36,6 @@ For convenience, [sync.sh](sync.sh) does those 2 operations.
 zsh sync.sh
 ```
 
-## license
+## [license](LICENSE)
 
 [AGPL-3.0-or-later](LICENSE) © 2019 GIL B. Chan <bnbcmindnpass@gmail.com>
