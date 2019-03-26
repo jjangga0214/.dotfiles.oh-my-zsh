@@ -36,6 +36,10 @@ For convenience, [sync.sh](sync.sh) does those 2 operations.
 zsh sync.sh
 ```
 
+## order by name
+
+Alphabetical order (ascending order by ascii value) of name of files in `$ZSH_CUSTOM` matters. A file can override or reference preceding files. That's why name of the file for envionment variables is [!0.env.zsh](!0.env.zsh) as `!` has very low ascii value. For example, `!1.`, `!2.` and so on can be used as prefix for certain file as well.
+
 ## [license](LICENSE)
 
 [AGPL-3.0-or-later](LICENSE) © 2019 GIL B. Chan <bnbcmindnpass@gmail.com>
