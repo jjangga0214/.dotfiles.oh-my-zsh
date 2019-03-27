@@ -2,6 +2,10 @@
 
 This is **.dotfiles** library (generally as a git submodule) used by other **.dotfiles** projects (e.g. *.dotfiles.debian.core*) for oh-my-zsh installation and configuration. But this can be used independently as well.
 
+## :warning: CAUTION
+
+Read [CAUTION.md](CAUTION.md) before any execution here.
+
 ## [install.sh](install.sh)
 
 :warning: This assumes zsh and git are already installed.  
