@@ -34,6 +34,7 @@ alias dot="cd $DOT"
 alias dotz="cd $DOTZ"
 alias s="cd /media/$(whoami)/SHARE"
 alias pathpp="tr ':' '\n' <<< $PATH"
+alias l="colorls -Al --sd"
 
 # app
 
