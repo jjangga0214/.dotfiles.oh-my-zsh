@@ -13,7 +13,6 @@ alias zca="ccat $ZSH_CUSTOM/aliases.zsh"
 ## os, preinstalled
 alias t="touch"
 alias e="exit"
-alias llg="ls -lah | grep"
 
 ## util
 alias c="xclip -sel clip"
@@ -32,6 +31,7 @@ alias jest="npx jest"
 alias l='colorls --almost-all --sort-dirs --git-status'
 alias ll="colorls -l --almost-all --sort-dirs --git-status"
 alias lt="colorls --tree --sort-dirs --git-status" # this does not show hidde files
+alias llg="colorls -l --almost-all --sort-dirs --git-status | grep"
 alias p="ccat"
 alias dot="cd $DOT"
 alias dotz="cd $DOTZ"
