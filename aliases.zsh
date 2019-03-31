@@ -29,12 +29,15 @@ alias jest="npx jest"
 
 
 ## env
+alias l='colorls --almost-all --sort-dirs --git-status'
+alias ll="colorls -l --almost-all --sort-dirs --git-status"
+alias lt="colorls --tree --sort-dirs --git-status" # this does not show hidde files
 alias p="ccat"
 alias dot="cd $DOT"
 alias dotz="cd $DOTZ"
 alias s="cd /media/$(whoami)/SHARE"
 alias pathpp="tr ':' '\n' <<< $PATH"
-alias l="colorls -Al --sd"
+
 
 # app
 
