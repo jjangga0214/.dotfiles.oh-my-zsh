@@ -89,10 +89,9 @@ git
 gitignore
 git-extras
 emoji
-dotenv
-docker-machine
-docker-compose
 docker
+docker-compose
+docker-machine
 cp
 command-not-found
 colorize
