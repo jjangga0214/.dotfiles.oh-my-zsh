@@ -8,10 +8,6 @@ Read [CAUTION.md](CAUTION.md) before any execution here.
 
 ## [install.sh](install.sh)
 
-:warning: This assumes zsh and git are already installed.  
-
-:information_source: This dose not depend on, but configs nvm (on [nvm.zsh](nvm.zsh)).
-
 This installs oh-my-zsh and plugins. This also calls [config.sh](config.sh). Finally, this copies [.zshrc](.zshrc) under `$HOME`.
 
 ```bash
@@ -42,7 +38,7 @@ zsh sync.sh
 
 ## order by name
 
-Alphabetical order (ascending order by ascii value) of name of files in `$ZSH_CUSTOM` matters. A file can override or reference preceding files. That's why name of the file for envionment variables is [!0.env.zsh](!0.env.zsh) as `!` has very low ascii value. For example, `!1.`, `!2.` and so on can be used as prefix for certain file as well.
+Alphabetical order (ascending order by ascii value) of name of files in `$ZSH_CUSTOM` matters. A file can override or reference preceding files. That's why name of the file for envionment variables is [!0.env.zsh](!0.env.zsh) as `!` has very low ascii value. For example, `!1.`, `!2.` and so on can be used as prefix for a certain file as well.
 
 ## [license](LICENSE)
 

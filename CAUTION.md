@@ -1,17 +1,21 @@
 # :warning: caution
 
+## installation
+
 [install.sh](install.sh) installs oh-my-zsh as the first task. After installation, **zsh** is automatically activated on bash (the shell [install.sh](install.sh) was executing), which interrupts ramaining tasks in [install.sh](install.sh). Simply execute `exit` on newly opened **zsh**, then other waiting tasks would be continuously executed.
 
 ## dependency
 
-### system
+**.dotfiles.oh-my-zsh**(domz) assumes the list below are already installed.
 
-* nvm
-* [colorls](https://translate.google.com/translate?hl=ko&sl=en&u=https://github.com/athityakumar/colorls&prev=search)
-* xclip
-* trash-cli
-* xdg-open
-* nautilus
+* zsh (required)
+* curl (required)
+* nvm (not required, but domz configs shell integration. Also, nvm should be installed in [specific way](https://github.com/creationix/nvm#manual-install))
+* [colorls](https://github.com/athityakumar/colorls) (not required, but configs related alias(es))
+* xclip (not required, but domz configs related alias(es))
+* trash-cli (not required, but domz configs related alias(es))
+* xdg-open (not required, but domz configs related alias(es))
+* nautilus (not required, but domz configs related alias(es))
 
 ### config
 
