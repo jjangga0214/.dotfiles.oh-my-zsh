@@ -67,6 +67,7 @@ plugins=(
 zsh-syntax-highlighting 
 alias-tips
 zsh-autosuggestions
+zsh-docker-aliases
 # official
 yarn
 vscode
@@ -91,7 +92,7 @@ git-extras
 emoji
 dotenv
 docker-machine
-docker-compose
+#docker-compose
 docker
 cp
 command-not-found
