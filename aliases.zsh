@@ -37,7 +37,9 @@ alias dot="cd $DOT"
 alias dotz="cd $DOTZ"
 alias s="cd /media/$(whoami)/SHARE"
 alias pathpp="tr ':' '\n' <<< $PATH"
-
+alias ch="cheat"
+alias chl="cheat -l"
+alias che="cheat -e"
 
 # app
 

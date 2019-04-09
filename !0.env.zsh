@@ -6,6 +6,12 @@ export ZR=$HOME/.zshrc
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan" # default is fg=8, which is 8th color on terminal palette.
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 export ZSH_AUTOSUGGEST_USE_ASYNC=1
+## [cheat/cheat](https://github.com/cheat/cheat )
+export CHEAT_USER_DIR=$HOME/.cheat/cheatsheets
+export CHEAT_COLORS=true
+export CHEAT_HIGHLIGHT=green
+export CHEAT_EDITOR=gedit
+#export CHEAT_COLORSCHEME=light # must be 'light' (default) or 'dark'
 ## GOROOT 
 ### Where go compiler would be considered installed. 
 ### /usr/local/go is the default. 
