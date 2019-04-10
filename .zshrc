@@ -64,11 +64,13 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 # custom
-zsh-syntax-highlighting 
-alias-tips
-zsh-autosuggestions
 zsh-docker-aliases
-# official
+zsh-history-substring-search
+zsh-syntax-highlighting
+zsh-completions
+zsh-autosuggestions
+alias-tips
+# built-in (oh-my-zsh official)
 yarn
 vscode
 ubuntu
@@ -91,9 +93,9 @@ gitignore
 git-extras
 emoji
 dotenv
-docker-machine
-#docker-compose
 docker
+# docker-compose
+docker-machine
 cp
 command-not-found
 colorize

@@ -20,5 +20,6 @@ export CHEAT_EDITOR=gedit
 ## GOPATH 
 ### Where go packages and projects will reside. 
 ### e.g. `go get <pkg>` installs <pkg> here.
-export GOPATH=$HOME/go.pkgs 
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export GOPATH=$HOME/go.pkgs
+export RUSTPATH=$HOME/.cargo/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$RUSTPATH
