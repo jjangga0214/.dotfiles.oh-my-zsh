@@ -22,8 +22,11 @@ alias th="trash"
 ## dev
 alias g_="git commit -m"
 alias gl="git log --graph --oneline"
-alias yl="yarn run lint"
-alias ys="yarn run serve"
+alias yr="yarn run"
+alias yrs="yarn run serve"
+alias yrb="yarn run build"
+alias yrl="yarn run lint"
+alias yrt="yarn run test"
 alias jest="npx jest"
 
 
