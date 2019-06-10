@@ -1,4 +1,6 @@
 BASE_DIR=$(dirname "$0")
+BASE_DIR=$(dirname "$0")
+: "${ZSH_CUSTOM:=$HOME/.oh-my-zsh/custom}"
 
 # oh-my-zsh 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -7,4 +9,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 bash $BASE_DIR/plugin.sh
 
 # config
-bash $BASE_DIR/config.sh
+ln -f $BASE_DIR/custom/!0.env.zsh $ZSH_CUSTOM/!0.env.zsh
+ln -f $BASE_DIR/custom/aliases.zsh $ZSH_CUSTOM/aliases.zsh
+ln -f $BASE_DIR/custom/functions.zsh $ZSH_CUSTOM/functions.zsh
+ln -f $BASE_DIR/custom/nvm.zsh $ZSH_CUSTOM/nvm.zsh
+ln -f $BASE_DIR/custom/pyenv.zsh $ZSH_CUSTOM/pyenv.zsh
+
+ln -f $BASE_DIR/.zshrc $HOME/.zshrc
