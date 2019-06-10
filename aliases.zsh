@@ -28,14 +28,17 @@ alias yrb="yarn run build"
 alias yrl="yarn run lint"
 alias yrt="yarn run test"
 alias jest="npx jest"
+alias p="python"
+alias pe="pyenv"
+alias n="node"
 
 
 ## env
 alias l='colorls --almost-all --sort-dirs --git-status'
+alias lg='colorls --almost-all --sort-dirs --git-status | grep'
 alias ll="colorls -l --almost-all --sort-dirs --git-status"
-alias lt="colorls --tree --sort-dirs --git-status" # this does not show hidde files
 alias llg="colorls -l --almost-all --sort-dirs --git-status | grep"
-alias p="ccat"
+alias lt="colorls --tree --sort-dirs --git-status" # this does not show hidde files
 alias dot="cd $DOT"
 alias dotz="cd $DOTZ"
 alias s="cd /media/$(whoami)/SHARE"

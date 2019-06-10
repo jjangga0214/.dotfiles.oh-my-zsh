@@ -1,6 +1,6 @@
 # .dotfiles.oh-my-zsh
 
-This is **.dotfiles** library (generally as a git submodule) used by other **.dotfiles** projects (e.g. *.dotfiles.debian.core*) for oh-my-zsh installation and configuration. But this can be used independently as well.
+This is **.dotfiles** library (generally as a git submodule) used by other **.dotfiles** projects (e.g. _.dotfiles.debian.core_) for oh-my-zsh installation and configuration. But this can be used independently as well.
 
 ## :warning: CAUTION
 
@@ -20,20 +20,6 @@ This sets aliases, functions, env vars and nvm by copying them under `$ZSH_CUSTO
 
 ```bash
 zsh config.sh
-```
-
-## [sync.sh](sync.sh)
-
-This is for maintenance strategy.
-
-Some envionment-related tools to be integrated with shell write their config code on `$HOME`**/.zshrc** by themselves. So, to keep this project in sync, it's important to override .zshrc (in this project) by `$HOME`**/.zshrc** (`cp $HOME/zshrc ./.zshrc`). For consistency, even when manual change is written, write it directly on `$HOME`**/.zshrc** and copies the file to this project.
-
-However, config for oh-my-zsh doesn't have to be like that. For convenience, just open this project, make some changes, and just execute [config.sh](config.sh) by `zsh config.sh`.
-
-For convenience, [sync.sh](sync.sh) does those 2 operations.
-
-```bash
-zsh sync.sh
 ```
 
 ## order by name

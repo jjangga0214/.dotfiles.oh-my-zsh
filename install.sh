@@ -8,6 +8,3 @@ bash $BASE_DIR/plugin.sh
 
 # config
 bash $BASE_DIR/config.sh
-
-# .zshrc
-cp $BASE_DIR/.zshrc $HOME/.zshrc

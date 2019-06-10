@@ -2,7 +2,7 @@
 export S=/media/$(whoami)/SHARE
 export DOT=$HOME/.dotfiles
 export ZR=$HOME/.zshrc
-## [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions#configuration)
+## [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions#configuration)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan" # default is fg=8, which is 8th color on terminal palette.
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 export ZSH_AUTOSUGGEST_USE_ASYNC=1
@@ -22,4 +22,7 @@ export CHEAT_EDITOR=gedit
 ### e.g. `go get <pkg>` installs <pkg> here.
 export GOPATH=$HOME/go.pkgs
 export RUSTPATH=$HOME/.cargo/bin
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$RUSTPATH
+## [pyenv/pyenv](https://github.com/pyenv/pyenv#installation)
+export PYENV_ROOT=$HOME/.pyenv
+
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin
