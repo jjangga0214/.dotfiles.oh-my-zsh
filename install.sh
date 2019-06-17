@@ -14,5 +14,6 @@ ln -f $BASE_DIR/custom/aliases.zsh $ZSH_CUSTOM/aliases.zsh
 ln -f $BASE_DIR/custom/functions.zsh $ZSH_CUSTOM/functions.zsh
 ln -f $BASE_DIR/custom/nvm.zsh $ZSH_CUSTOM/nvm.zsh
 ln -f $BASE_DIR/custom/pyenv.zsh $ZSH_CUSTOM/pyenv.zsh
+ln -f $BASE_DIR/custom/pipenv.zsh $ZSH_CUSTOM/pipenv.zsh
 
 ln -f $BASE_DIR/.zshrc $HOME/.zshrc

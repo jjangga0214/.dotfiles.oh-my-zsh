@@ -73,9 +73,11 @@ alias-tips
 # built-in (oh-my-zsh official)
 yarn
 vscode
+virtualenv
 ubuntu
 python
 postgres
+pipenv
 pip
 nvm
 npm
