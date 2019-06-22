@@ -96,7 +96,7 @@ git-extras
 emoji
 dotenv
 docker
-# docker-compose
+docker-compose
 docker-machine
 cp
 command-not-found
