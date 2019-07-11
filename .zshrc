@@ -76,20 +76,20 @@ vscode
 virtualenv
 ubuntu
 python
-postgres
+#postgres
 pipenv
 pip
-nvm
+#nvm # I already configured nvm in 'custom' directory (in .oh-my-zsh), so don't need nvm plugin.
 npm
 npx
 node
 man
-kubectl
-kube-ps1
+#kubectl
+#kube-ps1
 jsontools
-heroku
-helm
-golang
+#heroku
+#helm
+#golang
 git 
 gitignore
 git-extras
@@ -100,7 +100,7 @@ docker-compose
 docker-machine
 cp
 command-not-found
-colorize
+#colorize
 colored-man-pages
 aws
 )
