@@ -135,3 +135,13 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/serverless.zsh ]] && . /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/sls.zsh ]] && . /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/slss.zsh ]] && . /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/slss.zsh
