@@ -94,7 +94,7 @@ git
 gitignore
 git-extras
 emoji
-dotenv
+#dotenv
 docker
 docker-compose
 docker-machine
