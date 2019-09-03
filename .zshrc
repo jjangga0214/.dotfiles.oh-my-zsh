@@ -75,6 +75,7 @@ yarn
 vscode
 virtualenv
 ubuntu
+terraform
 python
 #postgres
 pipenv
