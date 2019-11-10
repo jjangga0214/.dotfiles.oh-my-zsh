@@ -2,6 +2,7 @@
 export S=/media/$(whoami)/SHARE
 export DOT=$HOME/.dotfiles
 export ZR=$HOME/.zshrc
+export EDITOR=codium
 ## [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions#configuration)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan" # default is fg=8, which is 8th color on terminal palette.
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
