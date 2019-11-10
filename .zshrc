@@ -103,6 +103,7 @@ cp
 command-not-found
 #colorize
 colored-man-pages
+bazel
 aws
 )
 

@@ -26,4 +26,4 @@ export RUSTPATH=$HOME/.cargo/bin
 ## [pyenv/pyenv](https://github.com/pyenv/pyenv#installation)
 export PYENV_ROOT=$HOME/.pyenv
 
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$HOME/bin
