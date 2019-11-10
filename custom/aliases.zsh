@@ -37,6 +37,7 @@ alias p3="python3"
 alias pe="pyenv"
 alias pp="pipenv"
 alias n="node"
+alias tf="terraform"
 
 
 ## env
