@@ -77,23 +77,25 @@ virtualenv
 ubuntu
 terraform
 python
-#postgres
+postgres
 pipenv
 pip
 #nvm # I already configured nvm in 'custom' directory (in .oh-my-zsh), so don't need nvm plugin.
 npm
 npx
 node
+minikube
 man
-#kubectl
-#kube-ps1
+kubectl
+kube-ps1
 jsontools
 #heroku
-#helm
+helm
 #golang
 git 
 gitignore
 git-extras
+gcloud
 emoji
 #dotenv
 docker
@@ -137,13 +139,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/serverless.zsh ]] && . /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/sls.zsh ]] && . /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/sls.zsh
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/slss.zsh ]] && . /media/gilchan/SHARE/seminar/serverless-graphql-workshop/starters/server/node_modules/tabtab/.completions/slss.zsh
