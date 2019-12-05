@@ -38,7 +38,8 @@ alias pe="pyenv"
 alias pp="pipenv"
 alias n="node"
 alias tf="terraform"
-
+alias k="kubectl"
+alias mk="minikube"
 
 ## env
 alias l='colorls --almost-all --sort-dirs --git-status'
