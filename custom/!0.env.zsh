@@ -13,6 +13,9 @@ export CHEAT_COLORS=true
 export CHEAT_HIGHLIGHT=green
 export CHEAT_EDITOR=gedit
 #export CHEAT_COLORSCHEME=light # must be 'light' (default) or 'dark'
+## [jonmosco/kube-ps1](https://github.com/jonmosco/kube-ps1#customization)
+export KUBE_PS1_SYMBOL_USE_IMG=true
+export KUBE_PS1_SYMBOL_COLOR="yellow"
 ## GOROOT 
 ### Where go compiler would be considered installed. 
 ### /usr/local/go is the default. 

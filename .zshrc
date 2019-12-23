@@ -111,7 +111,10 @@ aws
 
 source $ZSH/oh-my-zsh.sh
 
+#
 # User configuration
+
+PROMPT=$PROMPT'$(kube_ps1) '
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

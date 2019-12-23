@@ -16,6 +16,11 @@ ln -f $BASE_DIR/custom/nvm.zsh $ZSH_CUSTOM/nvm.zsh
 ln -f $BASE_DIR/custom/pyenv.zsh $ZSH_CUSTOM/pyenv.zsh
 ln -f $BASE_DIR/custom/autocompletion.zsh $ZSH_CUSTOM/autocompletion.zsh
 
+# executables
+bash $BASE_DIR/executable.zsh
+
+# autocompletion
+bash $BASE_DIR/autocompletion.zsh
+
 # rc
 ln -f $BASE_DIR/.zshrc $HOME/.zshrc
-
