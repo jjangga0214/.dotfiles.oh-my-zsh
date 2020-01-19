@@ -54,6 +54,7 @@ alias pathpp="tr ':' '\n' <<< $PATH"
 alias ch="cheat"
 alias chl="cheat -l"
 alias che="cheat -e"
+alias ldl="docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazyteam/lazydocker"
 
 # app
 
