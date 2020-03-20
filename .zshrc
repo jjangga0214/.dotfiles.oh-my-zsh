@@ -76,6 +76,7 @@ vscode
 virtualenv
 ubuntu
 terraform
+rust
 python
 postgres
 pipenv
@@ -105,6 +106,7 @@ cp
 command-not-found
 #colorize
 colored-man-pages
+cargo
 bazel
 aws
 )
@@ -142,3 +144,6 @@ PROMPT=$PROMPT'$(kube_ps1) '
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# add Pulumi to the PATH
+export PATH=$PATH:$HOME/.pulumi/bin
