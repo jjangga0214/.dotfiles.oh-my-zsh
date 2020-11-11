@@ -32,4 +32,4 @@ export FLUTTERPATH=$HOME/flutter/bin
 export GLOOPATH=$HOME/.gloo
 export ISTIOPATH=$HOME/istio
 
-export PATH=$PATH:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$ISTIOPATH/bin:$GLOOPATH/bin:$FLUTTERPATH
+export PATH=$PATH:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$ISTIOPATH/bin:$GLOOPATH/bin:$FLUTTERPATH:$HOME/.poetry/bin

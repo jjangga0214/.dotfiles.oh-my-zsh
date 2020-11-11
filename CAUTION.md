@@ -10,12 +10,12 @@
 
 - zsh (required)
 - curl (required)
-- nvm (not required, but domz configs shell integration. Also, nvm should be installed in [specific way](https://github.com/creationix/nvm#manual-install))
-- [colorls](https://github.com/athityakumar/colorls) (not required, but configs related alias(es))
-- xclip (not required, but domz configs related alias(es))
-- trash-cli (not required, but domz configs related alias(es))
-- xdg-open (not required, but domz configs related alias(es))
-- nautilus (not required, but domz configs related alias(es))
+- nvm (not required, but domz configures shell integration. Also, nvm should be installed in [specific way](https://github.com/creationix/nvm#manual-install))
+- [colorls](https://github.com/athityakumar/colorls) (not required, but configures related alias(es))
+- xclip (not required, but domz configures related alias(es))
+- trash-cli (not required, but domz configures related alias(es))
+- xdg-open (not required, but domz configures related alias(es))
+- nautilus (not required, but domz configures related alias(es))
 
 ### config
 
