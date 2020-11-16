@@ -6,12 +6,18 @@ This is **.dotfiles** library (generally as a git submodule) used by other **.do
 
 Read [CAUTION.md](CAUTION.md) before any execution here.
 
+## manual installation
+
+Read [MANUAL.md](MANUAL.md).
+
+Read [CAUTION.md](CAUTION.md) before any execution here.
+
 ## [install.sh](install.sh)
 
 This installs oh-my-zsh and plugins. This also calls [config.sh](config.sh). Finally, this copies [.zshrc](.zshrc) under `$HOME`.
 
 ```bash
-sudo bash install.sh
+bash install.sh # execute without sudo!
 ```
 
 ## [config.sh](config.sh)
