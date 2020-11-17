@@ -75,13 +75,13 @@ yarn
 vscode
 virtualenv
 ubuntu
-terraform
-rust
-python
-postgres
-poetry
-pipenv
-pip
+# terraform
+# rust
+# python
+# postgres
+# poetry
+# pipenv
+# pip
 #nvm # I already configured nvm in 'custom' directory (in .oh-my-zsh), so don't need nvm plugin.
 npm
 npx
@@ -96,7 +96,7 @@ helm
 #golang
 git 
 gitignore
-git-extras
+# git-extras
 gcloud
 emoji
 #dotenv
@@ -108,7 +108,7 @@ command-not-found
 #colorize
 colored-man-pages
 cargo
-bazel
+# bazel
 aws
 )
 
