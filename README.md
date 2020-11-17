@@ -10,8 +10,6 @@ Read [CAUTION.md](CAUTION.md) before any execution here.
 
 Read [MANUAL.md](MANUAL.md).
 
-Read [CAUTION.md](CAUTION.md) before any execution here.
-
 ## [install.sh](install.sh)
 
 This installs oh-my-zsh and plugins. This also calls [config.sh](config.sh). Finally, this copies [.zshrc](.zshrc) under `$HOME`.
