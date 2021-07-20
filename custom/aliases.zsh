@@ -7,7 +7,6 @@ alias zs="source ~/.zshrc"
 alias zc="cd $ZSH_CUSTOM"
 alias zca="ccat $ZSH_CUSTOM/aliases.zsh"
 
-
 # cli
 
 ## os, preinstalled
@@ -15,7 +14,7 @@ alias t="touch"
 alias e="exit"
 
 ## util
-alias c="xclip -sel clip"
+alias clip="xclip -sel clip"
 alias v="xclip -o -sel clip"
 alias th="trash"
 
@@ -39,7 +38,22 @@ alias pp="pipenv"
 alias n="node"
 alias tf="terraform"
 alias k="kubectl"
+alias kc="kubectx"
+alias kn="kubens"
 alias mk="minikube"
+alias c="cargo"
+alias cr="cargo run"
+alias cb="cargo build"
+alias ci="cargo install"
+alias ct="cargo test"
+alias cf="cargo fmt"
+alias microk8sKubeConfig="microk8s kubectl config view --raw > $HOME/.microk8s/kubeconfig && echo '~/.microk8s/kubeconfig'"
+alias k3dCc="k3d cluster create"
+alias k3dCcD="k3d cluster create default"
+alias k3dCd="k3d cluster delete"
+alias k3dCdD="k3d cluster delete default"
+alias k3dKubeconfigW="k3d kubeconfig write"
+alias k3dKubeconfigWD="k3d kubeconfig write default"
 
 ## env
 alias l='colorls --almost-all --sort-dirs --git-status'

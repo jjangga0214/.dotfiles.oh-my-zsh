@@ -29,7 +29,8 @@ export RUSTPATH=$HOME/.cargo/bin
 ## [pyenv/pyenv](https://github.com/pyenv/pyenv#installation)
 export PYENV_ROOT=$HOME/.pyenv
 export FLUTTERPATH=$HOME/flutter/bin
+export KUBECONFIG=$HOME/.kube/config:$HOME/.microk8s/kubeconfig:$HOME/.k3d/kubeconfig-ateamventures.yaml
 export GLOOPATH=$HOME/.gloo
 export ISTIOPATH=$HOME/istio
 
-export PATH=$PATH:$HOME/bin:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$ISTIOPATH/bin:$GLOOPATH/bin:$FLUTTERPATH:$HOME/.poetry/bin
+export PATH=$PATH:$HOME/Applications/bin:$HOME/Applications:$HOME/bin:/home/linuxbrew/.linuxbrew/bin:${KREW_ROOT:-$HOME/.krew}/bin:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$ISTIOPATH/bin:$GLOOPATH/bin:$FLUTTERPATH:$HOME/.poetry/bin
