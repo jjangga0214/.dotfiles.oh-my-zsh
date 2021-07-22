@@ -79,7 +79,7 @@ terraform
 # rust
 python
 # postgres
-poetry
+# poetry
 pipenv
 pip
 #nvm # I already configured nvm in 'custom' directory (in .oh-my-zsh), so don't need nvm plugin.
