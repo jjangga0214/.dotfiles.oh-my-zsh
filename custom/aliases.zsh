@@ -54,6 +54,14 @@ alias k3dCd="k3d cluster delete"
 alias k3dCdD="k3d cluster delete default"
 alias k3dKubeconfigW="k3d kubeconfig write"
 alias k3dKubeconfigWD="k3d kubeconfig write default"
+alias f="flutter"
+alias fp="flutter pub"
+alias ft="flutter test"
+alias fu="flutter upgrade"
+alias fd="flutter devices"
+alias fr="flutter run"
+alias fb="flutter build"
+
 
 ## env
 alias l='colorls --almost-all --sort-dirs --git-status'
@@ -74,7 +82,7 @@ alias ldl="docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock lazy
 
 ## env
 alias xo="xdg-open"
-alias f="nautilus . &!"
+alias xn="nautilus . &!"
 
 ## dev
 alias jw="webstorm . &!"
