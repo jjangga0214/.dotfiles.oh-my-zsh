@@ -56,12 +56,17 @@ alias k3dKubeconfigW="k3d kubeconfig write"
 alias k3dKubeconfigWD="k3d kubeconfig write default"
 alias f="flutter"
 alias fp="flutter pub"
+alias fpa="flutter pub add"
+alias fpad="flutter pub add --dev"
+alias fpg="flutter pub get"
+alias fpu="flutter pub upgrade"
+alias fpr="flutter pub run"
+alias fpt="flutter pub test"
 alias ft="flutter test"
 alias fu="flutter upgrade"
 alias fd="flutter devices"
 alias fr="flutter run"
 alias fb="flutter build"
-
 
 ## env
 alias l='colorls --almost-all --sort-dirs --git-status'
