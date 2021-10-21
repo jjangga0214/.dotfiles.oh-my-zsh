@@ -33,4 +33,4 @@ export KUBECONFIG=$HOME/.kube/config:$HOME/.microk8s/kubeconfig:$HOME/.k3d/kubec
 export GLOOPATH=$HOME/.gloo
 export ISTIOPATH=$HOME/istio
 
-export PATH=$PATH:$HOME/Applications/bin:$HOME/Applications:$HOME/bin:/home/linuxbrew/.linuxbrew/bin:${KREW_ROOT:-$HOME/.krew}/bin:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$ISTIOPATH/bin:$GLOOPATH/bin:$FLUTTERPATH:$HOME/.poetry/bin
+export PATH=$PYENV_ROOT/shims:$PATH:$HOME/Applications/bin:$HOME/Applications:$HOME/bin:/home/linuxbrew/.linuxbrew/bin:${KREW_ROOT:-$HOME/.krew}/bin:$GOROOT/bin:$GOPATH/bin:$RUSTPATH:$PYENV_ROOT/bin:$ISTIOPATH/bin:$GLOOPATH/bin:$FLUTTERPATH:$HOME/.poetry/bin
