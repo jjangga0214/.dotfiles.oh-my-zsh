@@ -115,6 +115,7 @@ aws
 )
 
 source $ZSH/oh-my-zsh.sh
+source ~/.bash_profile
 
 #
 # User configuration
@@ -165,4 +166,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
 
